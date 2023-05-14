@@ -9,9 +9,9 @@
         })
     }
     
-    const titulo = document.querySelector(".digitando");
+const titulo = document.querySelector(".digitando");
     
-    ativaLetra(titulo)
+ativaLetra(titulo)
     
 
 const ativaMenu = document.querySelector('.fa-bars');
