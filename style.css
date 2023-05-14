@@ -289,8 +289,7 @@
 
   @media(max-width: 992px) {
     .section-div img {
-      height: 400px;
-      width: auto;
+      display: none;
     }
 
     header {
