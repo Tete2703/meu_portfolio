@@ -13,15 +13,15 @@
     
     ativaLetra(titulo)
     
-function menuMobol() {
-    const ativaMenu = document.querySelector('.fa-bars');
+
+const ativaMenu = document.querySelector('.fa-bars');
 
 const navMenu = document.querySelector('header .navegacao-primaria')
 ativaMenu.addEventListener('click', () => {
     ativaMenu.classList.toggle('fa-x')
     navMenu.classList.toggle('ativado')
 })
-}
+
 
 function sobreMim() {
     const divExperiencia = document.querySelectorAll('.experience_content div');
